@@ -1,31 +1,44 @@
 {
-  "expo": {
-    "name": "pokedex-twinedo",
-    "slug": "pokedex-twinedo",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "com.anonymous.pokedextwinedo"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
-  }
+	"expo": {
+		"name": "pokedex-twinedo",
+		"slug": "pokedex-twinedo",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#ffffff"
+			},
+			"package": "com.anonymous.pokedextwinedo"
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		},
+		"plugins": [
+			[
+				"expo-font",
+				{
+					"fonts": [
+						"./assets/fonts/Roboto-Black.ttf",
+						"./assets/fonts/Roboto-Bold.ttf",
+						"./assets/fonts/Roboto-Light.ttf",
+						"./assets/fonts/Roboto-Medium.ttf",
+
+						"./assets/fonts/Roboto-Thin.ttf"
+					]
+				}
+			]
+		]
+	}
 }
